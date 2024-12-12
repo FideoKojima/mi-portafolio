@@ -12,12 +12,14 @@
 
     <!-- Contenido principal -->
     <div
-      class="container mx-auto px-4 h-screen flex flex-col justify-center items-center relative z-10"
+      class="container mx-auto px-4 min-h-screen flex flex-col justify-center items-center relative z-10"
     >
       <div class="text-center max-w-4xl">
         <!-- Introducción animada -->
-        <div class="mb-8">
-          <p class="text-gray-400 text-base">Desarrollador Web Frontend</p>
+        <div class="mb-8 mt-16">
+          <div class="bg-blue-500/10 text-blue-400 px-6 py-2 rounded-lg">
+            <p class="text-base">Desarrollador Web Frontend</p>
+          </div>
         </div>
 
         <!-- Nombre -->
@@ -29,8 +31,8 @@
         </h1>
 
         <p class="text-xl md:text-2xl text-gray-300 mb-12 max-w-2xl mx-auto leading-relaxed">
-          Me especializo en crear experiencias web únicas y memorables. Actualmente aprendiendo y
-          construyendo con Vue.js y tecnologías modernas.
+          Chef profesional reconvertido en desarrollador web. Combino mi experiencia en gestión y
+          atención al detalle con mi pasión por crear experiencias web únicas y memorables.
         </p>
 
         <!-- Botones -->

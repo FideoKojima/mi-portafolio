@@ -7,28 +7,45 @@
 
         <div class="space-y-6">
           <p class="text-lg text-gray-300 leading-relaxed">
-            Como desarrollador web en formación, me apasiona crear experiencias digitales que sean
-            tanto funcionales como agradables visualmente. Mi viaje en el desarrollo web comenzó en
-            Desafío Latam, donde descubrí mi pasión por el código y el diseño.
+            Soy un desarrollador web frontend de 38 años, originario de Venezuela y actualmente
+            residiendo en Santiago de Chile. Mi trayectoria única como chef profesional me ha dotado
+            de habilidades valiosas como la atención al detalle, trabajo bajo presión y gestión
+            eficiente de proyectos.
           </p>
 
           <p class="text-lg text-gray-300 leading-relaxed">
-            Mi enfoque se centra en crear interfaces que no solo se vean bien, sino que también sean
-            intuitivas y accesibles para todos los usuarios. Me emociona la idea de convertir
-            diseños complejos en código limpio y eficiente.
+            Actualmente me encuentro en transición profesional, formándome como desarrollador web en
+            Desafío Latam. Me enfoco en tecnologías frontend modernas como Vue.js y herramientas de
+            desarrollo actuales, combinando mi experiencia previa con mis nuevos conocimientos
+            técnicos.
           </p>
 
           <p class="text-lg text-gray-300 leading-relaxed">
-            Actualmente me encuentro expandiendo mis conocimientos en desarrollo web moderno,
-            particularmente en Vue.js y sus ecosistemas relacionados. Busco constantemente nuevos
-            desafíos que me permitan crecer como desarrollador.
+            Mi background único me permite aportar una perspectiva diferente a los proyectos de
+            desarrollo, complementando las habilidades técnicas con una sólida base en trabajo en
+            equipo y resolución de problemas.
           </p>
+        </div>
+
+        <!-- Background -->
+        <div
+          class="mt-12 bg-slate-800/50 rounded-xl p-8 backdrop-blur-sm border border-slate-700/50"
+        >
+          <h3 class="text-2xl font-semibold text-white mb-6">Background Profesional</h3>
+          <div class="space-y-4">
+            <p class="text-gray-300">
+              <span class="text-blue-400 font-medium">Formación Actual:</span> Bootcamp de
+              Desarrollo Web Front End Vue - Desafío Latam
+            </p>
+            <p class="text-gray-300">
+              <span class="text-blue-400 font-medium">Formación Previa:</span> Chef Profesional
+            </p>
+            <p class="text-gray-300">
+              <span class="text-blue-400 font-medium">Ubicación:</span> Santiago de Chile
+            </p>
+          </div>
         </div>
       </div>
     </div>
   </section>
 </template>
-
-<script setup>
-// Si necesitas agregar alguna funcionalidad en el futuro, aquí irá
-</script>

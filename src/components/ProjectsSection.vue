@@ -1,35 +1,3 @@
-<script setup>
-const projects = [
-  {
-    title: 'Flora y Fauna',
-    description:
-      'Single Page Application que demuestra buenas prácticas de maquetación y diseño responsivo. Desarrollada con HTML5 y CSS3 utilizando la metodología BEM para una estructura de código limpia y mantenible.',
-    technologies: ['HTML5', 'CSS3', 'BEM', 'Responsive Design'],
-    emoji: '🌿',
-    demoLink: 'https://flora-fauna-five.vercel.app/',
-    codeLink: 'https://github.com/FideoKojima/flora_fauna',
-  },
-  {
-    title: 'PokéAPI',
-    description:
-      'Aplicación web que consume la API de Pokémon para mostrar información detallada de diferentes Pokémon. Implementa manipulación dinámica del DOM y manejo de datos en JavaScript.',
-    technologies: ['JavaScript', 'HTML', 'CSS', 'REST API'],
-    emoji: '⚡',
-    demoLink: 'https://poke-api-mu-three.vercel.app/',
-    codeLink: 'https://github.com/FideoKojima/PokeApi',
-  },
-  {
-    title: 'API REST Dashboard',
-    description:
-      'Dashboard interactivo con operaciones CRUD completas. Demuestra integración con APIs REST, manejo de datos backend y lógica de negocio avanzada.',
-    technologies: ['JavaScript', 'REST API', 'CRUD', 'Async/Await'],
-    emoji: '🔄',
-    demoLink: 'https://desafio-consumo-api-rest-two.vercel.app/',
-    codeLink: 'https://github.com/FideoKojima/DesafioConsumoAPI-REST',
-  },
-]
-</script>
-
 <template>
   <section id="projects" class="py-24 bg-slate-800">
     <div class="container mx-auto px-4">
@@ -47,13 +15,16 @@ const projects = [
           <div class="grid md:grid-cols-2 gap-8 items-center">
             <!-- Preview del proyecto -->
             <div
-              class="relative h-64 md:h-full bg-slate-700/50 rounded-2xl overflow-hidden border border-slate-600/50"
+              class="relative h-64 md:h-[400px] bg-slate-700/50 rounded-2xl overflow-hidden border border-slate-600/50 group-hover:border-blue-500/50 transition-all"
             >
-              <div
-                class="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-blue-500/10 to-indigo-500/10"
-              >
-                <span class="text-6xl">{{ project.emoji }}</span>
-              </div>
+              <iframe
+                :src="project.demoLink"
+                class="w-full h-full"
+                loading="lazy"
+                sandbox="allow-scripts allow-same-origin"
+                title="Preview del proyecto"
+                style="pointer-events: auto"
+              ></iframe>
             </div>
 
             <!-- Información del proyecto -->
@@ -103,3 +74,32 @@ const projects = [
     </div>
   </section>
 </template>
+
+<script setup>
+const projects = [
+  {
+    title: 'Flora y Fauna',
+    description:
+      'Single Page Application que demuestra buenas prácticas de maquetación y diseño responsivo. Desarrollada con HTML5 y CSS3 utilizando la metodología BEM para una estructura de código limpia y mantenible.',
+    technologies: ['HTML5', 'CSS3', 'BEM', 'Responsive Design'],
+    demoLink: 'https://flora-fauna-five.vercel.app/',
+    codeLink: 'https://github.com/FideoKojima/flora_fauna',
+  },
+  {
+    title: 'PokéAPI',
+    description:
+      'Aplicación web que consume la API de Pokémon para mostrar información detallada de diferentes Pokémon. Implementa manipulación dinámica del DOM y manejo de datos en JavaScript.',
+    technologies: ['JavaScript', 'HTML', 'CSS', 'REST API'],
+    demoLink: 'https://poke-api-mu-three.vercel.app/',
+    codeLink: 'https://github.com/FideoKojima/PokeApi',
+  },
+  {
+    title: 'API REST Dashboard',
+    description:
+      'Dashboard interactivo con operaciones CRUD completas. Demuestra integración con APIs REST, manejo de datos backend y lógica de negocio avanzada.',
+    technologies: ['JavaScript', 'REST API', 'CRUD', 'Async/Await'],
+    demoLink: 'https://desafio-consumo-api-rest-two.vercel.app/',
+    codeLink: 'https://github.com/FideoKojima/DesafioConsumoAPI-REST',
+  },
+]
+</script>

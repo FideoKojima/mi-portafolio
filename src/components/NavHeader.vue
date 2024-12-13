@@ -57,7 +57,7 @@
       >
         <div
           v-if="isMenuOpen"
-          class="fixed md:hidden inset-y-0 right-0 w-[94%] bg-white z-40 rounded-l-3xl shadow-2xl"
+          class="fixed md:hidden top-16 bottom-0 right-0 w-[94%] bg-white z-40 rounded-l-3xl shadow-2xl"
         >
           <div class="pt-20 px-6 h-full overflow-y-auto">
             <!-- Menú Principal -->

@@ -58,9 +58,9 @@
         <!-- Menú Mobile con Transición -->
         <div
           v-if="isMenuOpen"
-          class="fixed md:hidden top-16 bottom-4 right-4 w-[90%] bg-white z-40 rounded-3xl shadow-2xl"
+          class="fixed md:hidden top-16 bottom-4 right-4 w-[90%] h-[calc(100vh-4rem)] bg-white z-40 rounded-3xl shadow-2xl overflow-y-auto"
         >
-          <div class="pt-20 px-6 h-full overflow-y-auto">
+          <div class="pt-20 px-6 h-full">
             <!-- Menú Principal -->
             <div class="space-y-1">
               <a

@@ -3,7 +3,7 @@
     <nav class="container mx-auto px-4 py-4 flex justify-between items-center">
       <!-- Logo o Nombre -->
       <div
-        class="text-xl font-bold bg-gradient-to-r from-blue-400 to-indigo-400 text-transparent bg-clip-text"
+        class="text-xl font-bold bg-gradient-to-r from-blue-400 to-indigo-400 text-transparent bg-clip-text font-spaceGrotesk z-50"
       >
         Luis Suarez
       </div>
@@ -206,3 +206,11 @@ const technologies = [
   },
 ]
 </script>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&display=swap');
+
+.font-spaceGrotesk {
+  font-family: 'Space Grotesk', sans-serif;
+}
+</style>
